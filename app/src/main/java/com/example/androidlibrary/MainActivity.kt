@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         binding.clickMe.setOnClickListener {
+
             showDialog(context,"This is Latest Android dialog")
         }
     }
